@@ -21,7 +21,7 @@ const Blog = () => {
             <div className={styles.item}>
               <span>Sep 26, 2021</span>
               <h3>GPT-3 and Open AI is the future. Let us exlore how it is?</h3>
-              <a href="">Read Full Article</a>
+              <a href="#features">Read Full Article</a>
             </div>
           </li>
           <li>
@@ -31,7 +31,7 @@ const Blog = () => {
             <div className={styles.item}>
               <span>Sep 26, 2021</span>
               <h3>GPT-3 and Open AI is the future. Let us exlore how it is?</h3>
-              <a href="">Read Full Article</a>
+              <a href="#features">Read Full Article</a>
             </div>
           </li>
           <li>
@@ -41,7 +41,7 @@ const Blog = () => {
             <div className={styles.item}>
               <span>Sep 26, 2021</span>
               <h3>GPT-3 and Open AI is the future. Let us exlore how it is?</h3>
-              <a href="">Read Full Article</a>
+              <a href="#features">Read Full Article</a>
             </div>
           </li>
           <li>
@@ -51,7 +51,7 @@ const Blog = () => {
             <div className={styles.item}>
               <span>Sep 26, 2021</span>
               <h3>GPT-3 and Open AI is the future. Let us exlore how it is?</h3>
-              <a href="">Read Full Article</a>
+              <a href="#features">Read Full Article</a>
             </div>
           </li>
           <li>
@@ -61,7 +61,7 @@ const Blog = () => {
             <div className={styles.item}>
               <span>Sep 26, 2021</span>
               <h3>GPT-3 and Open AI is the future. Let us exlore how it is?</h3>
-              <a href="">Read Full Article</a>
+              <a href="#features">Read Full Article</a>
             </div>
           </li>
         </ul>
