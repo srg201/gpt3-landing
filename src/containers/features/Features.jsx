@@ -10,7 +10,7 @@ const Features = () => {
             The Future is Now and You Just Need To Realize It. Step into Future
             Today & Make it Happen.
           </h2>
-          <a className={styles.link} href="#">
+          <a className={styles.link} href="#features">
             Request Early Access to Get Started
           </a>
         </div>
