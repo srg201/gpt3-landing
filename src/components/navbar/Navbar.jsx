@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={[styles.wrap, "container"].join(" ")}>
-        <a href="#" className={styles.logo}>
+        <a href="#features" className={styles.logo}>
           <img src={logo} alt="logo" />
         </a>
         <ul className={styles.list}>
@@ -29,10 +29,10 @@ const Navbar = () => {
           </li>
         </ul>
         <div>
-          <a href="#" className={styles.signin}>
+          <a href="#features" className={styles.signin}>
             Sign in
           </a>
-          <a href="#" className={styles.signup}>
+          <a href="#features" className={styles.signup}>
             Sign up
           </a>
         </div>
@@ -72,10 +72,10 @@ const Navbar = () => {
               </li>
             </ul>
             <div>
-              <a onClick={() => setToggleMenu(false)} href="#" className={styles.signinAd}>
+              <a onClick={() => setToggleMenu(false)} href="#features" className={styles.signinAd}>
                 Sign in
               </a>
-              <a onClick={() => setToggleMenu(false)} href="#" className={styles.signupAd}>
+              <a onClick={() => setToggleMenu(false)} href="#features" className={styles.signupAd}>
                 Sign up
               </a>
             </div>
