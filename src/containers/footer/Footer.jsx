@@ -9,7 +9,7 @@ const Footer = () => {
           <h2 className={[styles.title, "gradient__text"].join(' ')}>
             Do you want to step in to the future before others
           </h2>
-          <a href="">Request Early Access</a>
+          <a href="#features">Request Early Access</a>
         </div>
         <div className={styles.bottom}>
           <small>© 2021 GPT-3. All rights reserved.</small>
