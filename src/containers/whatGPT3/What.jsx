@@ -17,7 +17,7 @@ const What = () => {
         </div>
         <div className={styles.middle}>
           <h2>The possibilities are beyond your imagination</h2>
-          <a href="">Explore The Library</a>
+          <a href="#features">Explore The Library</a>
         </div>
         <ul className={styles.bottom}>
           <li>
