@@ -1,0 +1,154 @@
+.navbar {
+  padding: 25px 0;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--color-bg);
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
+
+  li {
+    a {
+      transition: color 0.3s ease 0s;
+      @media (any-hover: hover) {
+        &:hover {
+          color: var(--color-orange);
+        }
+      }
+    }
+  }
+}
+
+.listAdaptive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-size: 22px;
+
+  li {
+    a {
+      transition: color 0.3s ease 0s;
+      @media (any-hover: hover) {
+        &:hover {
+          color: var(--color-orange);
+        }
+      }
+    }
+  }
+}
+
+.signin {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  transition: color 0.3s ease 0s;
+
+  @media (any-hover: hover) {
+    &:hover {
+      color: var(--color-orange);
+    }
+  }
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+
+.signup {
+  margin-left: 26px;
+  padding: 16px 44px;
+  border-radius: 5px;
+  background: var(--color-orange);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  transition: background 0.3s ease 0s;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background: #ff5c37;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+
+
+.signinAd {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  transition: color 0.3s ease 0s;
+
+  @media (any-hover: hover) {
+    &:hover {
+      color: var(--color-orange);
+    }
+  }
+}
+
+.signupAd {
+  padding: 16px 44px;
+  border-radius: 5px;
+  background: var(--color-orange);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  transition: background 0.3s ease 0s;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background: #ff5c37;
+    }
+  }
+
+}
+
+.menu {
+  display: none;
+  @media (max-width: 1000px) {
+    display: block;
+  }
+}
+
+.navAdaptive {
+  background-color: var(--color-bg);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}

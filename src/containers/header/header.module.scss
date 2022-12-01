@@ -1,0 +1,93 @@
+@import "../../mixins.scss";
+
+.wrap {
+  padding: 50px 0;
+}
+
+.header {
+    @media (min-width: 1024px) {
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(320px, 680px) 45%;
+    gap: 30px;
+  }
+}
+
+
+.title {
+  margin-bottom: 33px;
+}
+
+.descr {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 39px;
+}
+
+.form {
+  position: relative;
+  height: 65px;
+  border-radius: 5px 0px 0px 5px;
+
+  input {
+    width: 100%;
+    height: 100%;
+    padding-left: 32px;
+    background: #052d56;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid transparent;
+    outline: none;
+    color: #3d6184;
+    transition: border 0.3s ease 0s;
+
+    &::placeholder {
+      color: #3d6184;
+    }
+
+    &:focus {
+      border: 2px solid #ff5c37;
+    }
+  }
+
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 30px;
+    background: var(--color-orange);
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease 0s;
+
+    @media (any-hover: hover) {
+      &:hover {
+        background: #ff5c37;
+      }
+    }
+  }
+}
+
+.people {
+  display: flex;
+  gap: 15px;
+  margin-top: 39px;
+
+  img {
+    flex: 0 0 182px;
+    max-height: 39px;
+  }
+
+  span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+}

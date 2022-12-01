@@ -1,0 +1,47 @@
+.wrap {
+  padding: 150px 0;
+}
+
+.cta {
+  padding: 45px;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+
+  div {
+    span {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 30px;
+      color: #0e0e0e;
+    }
+
+    p {
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 45px;
+      color: #000000;
+    }
+  }
+
+  a {
+    padding: 14px 40px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 40px;
+    transition: transform 0.3s ease 0s;
+
+    @media (any-hover: hover){
+      &:hover{
+        transform: scale(1.03);
+      }
+    }
+  }
+}
